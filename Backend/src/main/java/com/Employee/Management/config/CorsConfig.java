@@ -16,10 +16,7 @@ public class CorsConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         config.setAllowedOrigins(List.of(
-                "http://localhost:3000",  // React
-                "http://localhost:4200",  // Angular
-                "http://localhost:5173",  // Vite
-                "http://localhost:8081"   // Vue
+                "http://localhost:3000"
         ));
 
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
